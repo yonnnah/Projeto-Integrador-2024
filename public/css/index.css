@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.tela-toda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-tela-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.logo-black-login{
+    text-align: center;
+}
+.texto-login{
+    text-align: center;
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+    margin-top: 30px;    
+}
+.formulario-itens-alinhamento{
+    display: flex;
+    flex-direction: column;
+}
+.form-contato{
+    margin: 5px;
+}
+.form-contato label{
+    font-size: medium;
+    font-family: roboto; 
+    margin-left: 1%;
+    height: 30px;
+    width: 100%;
+    font-weight: 1;
+    font-size: 17px;
+}
+.form-contato input{
+    margin-top: 4%;
+    padding: 8px 18px;
+    width: 325px;
+    height: 46.16px;
+    border: none;
+    background-color: #EEEE;
+    color: #5e5e5e;
+    border-radius: 20px;
+    outline: none;
+    font-family: roboto;
+}
+.botao-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao-login-botao {
+    background-color: #fb6a29;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 128px;
+    height: 39px;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    font-size: 24px;
+}
+.icones-media{
+    display: flex;
+    justify-content: center;
+}
+.icones-media img{
+    margin: 0 14px;
+}
+
+.MedAssist{    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.tela-toda-home{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+}
+
+.topo-site{    
+    background-color: #0053ab;
+    width: 100%;
+    height: 110px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.foto-paciente{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.informacoes-paciente{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 4%;
+    /* margin-bottom: 35%; */
+}
+
+.fundo-informacoes{
+    align-content: center;
+    padding: 8px 18px;
+    height: 47px;
+    background-color: #EEEE;
+    color: #333333;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.tipo-dados{
+    align-content: center;
+    font-family: roboto; 
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.botao-ligacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 11.8%;
+    z-index: 1;
+}
+
+.botao-ligacao-botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    font-size: 24px;
+    /* margin-top: 90px; */
+    padding: 0 25px;
+}
+
+.baixo-site{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height:130px; */
+    display: flex;
+    flex-direction: column;
+    background-color:#D9D9D9;
+    padding: 25px 0;
+}
+
+.icones-funcoes{
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    align-items: center;
+}
+
+.texto-funcoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #0053ab;
+}
+
+.alinhamento-text-funcoes{
+    width: 63px;
+    text-align: center;
+}
+
+.area-app{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+.area-app-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 50%;
+    height: 70px;
+    font-size: 250%;
+}
+
+.local-calendario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 100%;
+    height: 280px;
+    margin-bottom: 5%;
+}
+
+.calendario{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(0, 61, 61);
+    width: 50%;
+    height: 35px;
+}
+
+.informacoes-consultas{
+   display: flex;
+   flex-direction: column;
+   padding: 0% 4%; 
+   /* margin-bottom: 35%; */
+}
+
+.botao-consulta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao-nova-consulta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 55%;
+    height: 40px;
+    font-size: 24px;
+    position: fixed;
+    bottom: 11.8%;
+    z-index: 1;
+}
+
+.botao-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 17%;
+    left: 35%;
+    z-index: 1;
+}
+
+.botao-novo-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    width: 16%;
+    height: 70px;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.informacoes-lembretes{
+   display: flex;
+   flex-direction: column;
+   padding: 0% 4%; 
+   margin-bottom: 35%;
+}
+
+/* historico */
+
+.informacoes-historico{
+    display: flex;
+    align-items: flex-start;
+    padding: 2% 4%;
+    border-bottom: 2px solid #dad5db;
+}
+
+.data-consulta{
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #f16323;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.icone-historico{
+    margin-right: 6%;
+}
+
+.informacoes-consulta{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.nome-medico{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.diagnostico,
+.prescricoes{
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.detalhes-diagnostico,
+.detalhes-prescricoes{
+    font-size: 14px;
+    margin-left: 12%;
+    margin-bottom: 5%;
+}
+
+.detalhes-diagnostico li::marker,
+.detalhes-prescricoes li::marker {
+    font-size: 24px;
+}
