@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/assets/fonts/fonts.css">
+    <title>Login</title>
+</head>
+<body class="tela-toda">
+    <section>
+        <div class="container-tela-login">
+            <div class="logo-black-login">
+                <img src="/public/assets/images/logo-black.png" alt="">
+            </div>
+            <div class="texto-login">
+                <h1>Login</h1>
+            </div>
+            <div>
+                <form action="#" class="formulario-itens-alinhamento">
+                        <div class="form-contato">
+                            <label for="CPF"><strong>CPF</strong></label>
+                            <br>
+                            <input type="text" name="CPF" maxlength="14" oninput="formatarNumero(this)" required>
+                        </div>
+                        <div class="form-contato">
+                            <label for="Senha"><strong>Senha</strong></label>
+                            <br>
+                            <input type="password" name="Senha" required>
+                        </div>
+                        <div class="botao-login">
+                            <!-- CRIAR LINK DE BOTÃO PARA A HOMEPAGE -->
+                            <button class="botao-login-botao"><strong>Entrar</strong></button>
+                        </div>
+                </form>
+                    <div class="icones-media">
+                        <div><img src="/public/assets/icons/instagram.svg"></div>
+                        <div><img src="/public/assets/icons/facebook.svg"></div>
+                        <div><img src="/public/assets/icons/linkedin.svg"></div>
+                        <div><img src="/public/assets/icons/youtube.svg"></div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+            function formatarNumero(input) {
+            let numero = input.value;
+            numero = numero.replace(/\D/g, '');
+            if (numero.length > 3) {
+                numero = numero.substring(0, 3) + '-' + numero.substring(3);
+            }
+            if (numero.length > 7) {
+                numero = numero.substring(0, 7) + '-' + numero.substring(7);
+            }
+            if (numero.length > 11) {
+                numero = numero.substring(0, 11) + '-' + numero.substring(11);
+            }
+            input.value = numero;
+}
+</script>
+    
+    </body>
+</html>

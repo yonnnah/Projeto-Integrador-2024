@@ -5,60 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/index.css">
     <link rel="stylesheet" href="/public/assets/fonts/fonts.css">
-    <title>Login</title>
+    <title>Home</title>
 </head>
-<body class="tela-toda">
-    <section>
-        <div class="container-tela-login">
-            <div class="logo-black-login">
-                <img src="/public/assets/images/logo-black.png" alt="">
+<header>
+    <div class="topo-site">
+        <div class="MedAssist">
+            <img src="/public/assets/icons/MedAssist.svg" alt="">
+        </div>
+    </div>
+</header>
+<body class="tela-toda-home">
+        <section>
+            <div class="foto-paciente">
+                <img src="/public/assets/images/foto-paciente.svg" alt="">
             </div>
-            <div class="texto-login">
-                <h1>Login</h1>
+        </section>
+        <section class="informacoes-paciente">
+            <div>
+                <p class="tipo-dados"><strong>Nome</strong></p>
+            </div>
+            <div class="fundo-informacoes">
+                <p><strong>Octávio Carvalho de Oliveira</strong></p>
             </div>
             <div>
-                <form action="#" class="formulario-itens-alinhamento">
-                        <div class="form-contato">
-                            <label for="CPF"><strong>CPF</strong></label>
-                            <br>
-                            <input type="text" name="CPF" maxlength="14" oninput="formatarNumero(this)" required>
-                        </div>
-                        <div class="form-contato">
-                            <label for="Senha"><strong>Senha</strong></label>
-                            <br>
-                            <input type="password" name="Senha" required>
-                        </div>
-                        <div class="botao-login">
-                            <!-- CRIAR LINK DE BOTÃO PARA A HOMEPAGE -->
-                            <button class="botao-login-botao"><strong>Entrar</strong></button>
-                        </div>
-                </form>
-                    <div class="icones-media">
-                        <div><img src="/public/assets/icons/instagram.svg"></div>
-                        <div><img src="/public/assets/icons/facebook.svg"></div>
-                        <div><img src="/public/assets/icons/linkedin.svg"></div>
-                        <div><img src="/public/assets/icons/youtube.svg"></div>
-                    </div>
+                <p class="tipo-dados"><strong>Nascimento</strong></p>
             </div>
-        </div>
-    </section>
+            <div class="fundo-informacoes">
+                <p><strong>15/08/1952</strong></p>
+            </div>
+            <div>
+                <p class="tipo-dados"><strong>Sexo</strong></p>
+            </div>
+            <div class="fundo-informacoes">
+                <p><strong>Masculino</strong></p>
+            </div>
+             <div>
+                <p class="tipo-dados"><strong>Plano</strong></p>
+            </div>
+            <div class="fundo-informacoes">
+                <p><strong>Silver</strong></p>
+            </div>
+        </section>
+        <div class="botao-ligacao">
+    <button class="botao-ligacao-botao" onclick="window.location.href='tel:+123456789'">
+        <strong>Ligar para o médico</strong> 
+        <img src="/public/assets/icons/icone-telefone.svg"> 
+    </button>
+</div>
 
-    <script>
-            function formatarNumero(input) {
-            let numero = input.value;
-            numero = numero.replace(/\D/g, '');
-            if (numero.length > 3) {
-                numero = numero.substring(0, 3) + '-' + numero.substring(3);
-            }
-            if (numero.length > 7) {
-                numero = numero.substring(0, 7) + '-' + numero.substring(7);
-            }
-            if (numero.length > 11) {
-                numero = numero.substring(0, 11) + '-' + numero.substring(11);
-            }
-            input.value = numero;
-}
-</script>
-    
-    </body>
+        </div>
+        <footer class="baixo-site">
+            <div class="icones-textos-funcoes">
+                <div class="icones-funcoes">
+                    <a href="/index.html">
+                        <div>
+                            <img src="/public/assets/icons/inicio.svg">
+                        </div>
+                    </a>
+                    <a href="/3consultas.html">
+                        <div>
+                            <img src="/public/assets/icons/consultas.svg">
+                        </div>
+                    </a>
+                    <a href="/4historico.html">
+                        <div>
+                            <img src="/public/assets/icons/historico.svg">
+                        </div>
+                    </a>
+                    <a href="/5lembretes.html">
+                        <div>
+                            <img src="/public/assets/icons/lembrete.svg">
+                        </div>
+                    </a>
+                </div>
+                <div class="texto-funcoes">
+                    <div class="alinhamento-text-funcoes">
+                        <p><strong>Início</strong></p>
+                    </div>
+                    <div class="alinhamento-text-funcoes">
+                        <p><strong>Consultas</strong></p>
+                    </div>
+                    <div class="alinhamento-text-funcoes">
+                        <p><strong>Histórico</strong></p>
+                    </div>
+                    <div class="alinhamento-text-funcoes">
+                        <p><strong>Lembrete</strong></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
 </html>
