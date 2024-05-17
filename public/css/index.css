@@ -445,6 +445,17 @@
     font-size: 20px;
 }
 
+.especialidade-consulta{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+}
+
 .data-hora-novas-consultas{
     display: flex;
     margin-top: 40px;
