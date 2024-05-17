@@ -301,7 +301,7 @@
    margin-bottom: 35%;
 }
 
-/* historico */
+/* HISTORICO */
 
 .informacoes-historico{
     display: flex;
@@ -352,4 +352,80 @@
 .detalhes-diagnostico li::marker,
 .detalhes-prescricoes li::marker {
     font-size: 24px;
+}
+
+/* NOVOS-LEMBRETES */
+
+.novos-lembretes{
+    font-family: Roboto;
+    padding: 2% 6%;
+    font-size: 20px;
+}
+
+.conteudo-novo-lembrete{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.data-hora-novos-lembretes{
+    display: flex;
+    margin-top: 40px;
+}
+
+.dia-novo-lembrete{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.hora{
+    margin-left: 60px;
+}
+
+.hora-novo-lembrete{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.container-botao-confirmar-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao-confirmar-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 65%;
+    height: 40px;
+    font-size: 24px;
+    position: fixed;
+    bottom: 11.8%;
+    z-index: 1;
 }
