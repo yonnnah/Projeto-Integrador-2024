@@ -104,9 +104,15 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-.foto-paciente{
+.container-foto-paciente{
     text-align: center;
     margin-top: 20px;
+}
+
+.foto-paciente{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
 
 .informacoes-paciente{
@@ -305,6 +311,7 @@
 
 .informacoes-historico{
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     padding: 2% 4%;
     border-bottom: 2px solid #dad5db;
@@ -395,6 +402,71 @@
 }
 
 .hora-novo-lembrete{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.container-botao-confirmar-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao-confirmar-lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0053ab;
+    color: #faf4f4;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 65%;
+    height: 40px;
+    font-size: 24px;
+    position: fixed;
+    bottom: 11.8%;
+    z-index: 1;
+}
+
+/* NOVAS-CONSULTAS */
+
+.novas-consultas{
+    font-family: Roboto;
+    padding: 2% 6%;
+    font-size: 20px;
+}
+
+.data-hora-novas-consultas{
+    display: flex;
+    margin-top: 40px;
+}
+
+.dia-novas-consultas{
+    align-content: center;
+    padding: 8px 18px;
+    background-color: #EEEE;
+    color: #333333;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.hora{
+    margin-left: 60px;
+}
+
+.hora-novas-consultas{
     align-content: center;
     padding: 8px 18px;
     background-color: #EEEE;
